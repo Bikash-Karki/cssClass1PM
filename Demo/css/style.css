@@ -1,0 +1,183 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+/* start of navbar style */
+header{
+ display:flex;
+ justify-content: space-around;
+ align-items: center;
+ /* margin: 10px; */
+ background-color: #232F3E;
+}
+.nav-links{
+ display: flex;
+ justify-content: space-around;
+ list-style: none;
+}
+.nav-item{
+ padding: 10px;
+}
+.nav-item:hover{
+ background-color: rgb(230, 48, 24);
+}
+.nav-link{
+ text-decoration: none;
+ color: #FFF;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ display: inline-block;
+}
+.search-form{
+ padding-right: 20px;
+}
+form input{
+ padding: 5px;
+}
+
+.btn{
+ background: transparent;
+ background-color: white;
+ padding: 0 10px 0;
+ border: 1px solid #16161d;
+ padding: 5px;
+}
+/* end of navbar style */
+
+/* start of product style */
+.products{
+ width: 85%;
+ margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.product-item{
+ width: 30%;
+ /* background-color: aquamarine; */
+ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+ height: 400px;
+ margin: 20px 0 0;
+
+}
+.product-image{
+height: 300px;
+overflow: hidden;
+
+}
+.product-image img{
+ height: 100%;
+ width: 100%;
+ transition: all 1s;
+}
+.product-item button{
+ background-color: dodgerblue;
+ color: white;
+ padding: 10px;
+ border: none;
+ font-size: 16px;
+ border-radius: 30px;
+ transition:  1s ease-in;
+}
+.product-btn:hover{
+ background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+ ;
+ 
+}
+.product-image:hover img{
+ transform: scale(1.5);
+}
+/* end of product style */
+
+/* start of offer style */
+.offer{
+ height: 600px;
+ width: 100%;
+ background-image: url('https://wallpaperaccess.com/full/3204224.jpg');
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ margin: 5px 0 0; /* top , left&right , bottom*/
+}
+.offer h2{
+ color: white; 
+ font-size: 50px;
+ text-shadow: 3px 3px 6px rgba(255, 0, 0, 0.5);
+}
+
+.offer p{
+ color: royalblue;
+ text-transform: capitalize;
+ font-size: 20px;
+}
+.offer-content{
+ width: 90%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin: 40px auto 0;
+}
+.offer-item{
+ width: 47%;
+ background-color: white;
+ height: 400px;
+}
+.offer-item h2{
+ color: #16161d;
+ text-shadow: none;
+ padding: 15px 0 0;
+ font-size: 40px;
+}
+.offer-item-demo{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+.offer-data{
+ width: 47%;
+}
+.offer-img{
+overflow: hidden;
+height: 250px;
+}
+.offer-img img{
+ height: 100%;
+ width: 100%;
+}
+/* end of offer style */
+
+/* start of youtube content style */
+.youtube-content{
+ width: 90%;
+ margin: 15px auto 0;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+.youtube-item{
+ width: 47%;
+ height: 300px;
+}
+iframe{
+ width: 100%;
+ height: 100%;
+}
+/* end of youtube content style */
+
+/* start of map content style */
+
+.map-item{
+ margin: 15px auto 0;
+ width: 100%;
+ height: 600px;
+}
+/* end of map content style */
+footer{
+ background-color: #16161d;
+ text-align: center;
+ color: white;
+ height: 2rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}

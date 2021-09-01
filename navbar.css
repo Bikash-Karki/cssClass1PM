@@ -1,0 +1,48 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+header{
+ display:flex;
+ justify-content: space-around;
+ align-items: center;
+ /* margin: 10px; */
+ background-color: #232F3E;
+}
+.nav-links{
+ display: flex;
+ justify-content: space-around;
+ list-style: none;
+}
+.nav-item{
+ padding: 10px;
+}
+.nav-item:hover{
+ background-color: rgb(177, 177, 43);
+}
+.nav-link{
+ text-decoration: none;
+ color: #FFF;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ display: inline-block;
+}
+.search-form{
+ padding-right: 20px;
+}
+form input{
+ padding: 5px;
+}
+h3{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: larger;
+ font-weight: 700;
+ color: #fff;
+}
+.btn{
+ background: transparent;
+ background-color: white;
+ padding: 0 10px 0;
+ border: 1px solid #16161d;
+ padding: 5px;
+}
